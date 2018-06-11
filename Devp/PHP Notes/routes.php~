@@ -1,0 +1,22 @@
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| Application Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register all of the routes for an application.
+| It's a breeze. Simply tell Laravel the URIs it should respond to
+| and give it the controller to call when that URI is requested.
+|
+*/
+
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('about', function(){
+
+return('<h1>About Us</h1>Jafty.com is a fully functional web development company offering almost any service to do with web development, including, but by no means limited to, PHP, HTML5, CSS3, JavaScript, Photoshop, Logo Design, Jquery, Server Installation, Site Migration, WordPress, Joomla, Linux servers, Windows servers, etc. Just ask, I pretty much do it all. Yes, Jafty.com is basically, jut me, Ian L. I do hire additional help as needed ,but I personally manage and oversee every project that comes through my company and make sure that it meets or exceeds my rigid quality control standards.');
+
+});
